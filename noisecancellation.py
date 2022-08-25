@@ -640,7 +640,7 @@ def load_lottieurl(url):
 lottie = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_seidgi4z.json")
 
 with body:
-    st.title('Compress your images')
+    st.title('Cancel the noise in your audio')
     st.write('##')
     #st.write('##')
 
@@ -656,7 +656,7 @@ with body:
         file_uploader = st.sidebar.file_uploader(label="", type=".wav")
 
         if file_uploader is not None:
-            with st.spinner('Compressing...'):
+            with st.spinner('Cancelling the noise...'):
                 y, sr = handle_uploaded_audio_file(file_uploader)
                 # perform noise reduction
                 reduced_noise = reduce_noise(y=y, sr=sr)
