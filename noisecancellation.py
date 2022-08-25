@@ -667,6 +667,6 @@ with body:
                 btn = st.download_button(
                                 label=lbl,
                                 data=audio1,
-                                file_name="COMPRESSED.wav",
+                                file_name="COMPRESSED_AUDIO.wav",
                                 mime="wav",
                                 )
