@@ -1,1 +1,10 @@
 joblib
+numpy
+librosa
+scipy
+tempfile
+pydub
+tqdm
+streamlit
+requests
+streamlit_lottie
