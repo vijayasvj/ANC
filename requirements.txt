@@ -2,7 +2,6 @@ joblib
 numpy
 librosa
 scipy
-tempfile
 pydub
 tqdm
 streamlit
